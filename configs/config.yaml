@@ -1,12 +1,12 @@
 # Configuration file for Machine Learning Assignment 2
-# Generated for Roll Number: M26CSE005
+# Generated for Roll Number: M26CSA012
 
 student:
-  name: "Jay"
-  roll_number: "M26CSE005"
-  github_repo: "https://github.com/JayLakkadCSE005/ml-assignment2"
+  name: "Hiren"
+  roll_number: "M26CSA012"
+  github_repo: "https://github.com/22AIML023Hiren/mlassignment2"
 
-random_seed: 26005
+random_seed: 26012
 
 dataset:
   name: "Olivetti Faces"

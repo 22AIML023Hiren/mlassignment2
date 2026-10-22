@@ -1,8 +1,8 @@
 # Machine Learning Assignment 2: Decision Forests, Boosting & Bias-Variance Tradeoffs
 
-**Student Name:** Jay  
-**Roll Number:** `M26CSE005`  
-**Random Seed:** `26005` (derived deterministically from digits in roll number)  
+**Student Name:** Hiren  
+**Roll Number:** `M26CSA012`  
+**Random Seed:** `26012` (derived deterministically from digits in roll number)  
 **Dataset:** AT&T Cambridge Olivetti Faces ($K=40$ classes, $D=4096$ features)  
 **Deliverables:** CVPR Two-Column PDF Report + GitHub Repository  
 
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ## 3. Data Split & Occlusion Protocol
 
-The Olivetti dataset consists of 40 identities with 10 images each (400 images total, $64 \times 64$ pixels). Using seed `26005`, the 10 images per identity are split without replacement:
+The Olivetti dataset consists of 40 identities with 10 images each (400 images total, $64 \times 64$ pixels). Using seed `26012`, the 10 images per identity are split without replacement:
 - **Train:** 6 images/person ($240$ samples)
 - **Validation:** 2 images/person ($80$ samples)
 - **Test:** 2 images/person ($80$ samples)
@@ -140,10 +140,9 @@ The complete CVPR two-column manuscript is located in `latex/main.tex`.
 3. Select `pdfLaTeX` compiler and set `main.tex` as the root document.
 
 ### Page 1 Submission Metadata:
-- **Author:** Jay
-- **Roll Number:** M26CSE005
-- **Repository:** https://github.com/JayLakkadCSE005/ml-assignment2
-- **Final Commit Hash:** `a0006f72efd33d07bd614fdedcc0efd414b17f05` (`a0006f7`)
+- **Author:** Hiren
+- **Roll Number:** M26CSA012
+- **Repository:** https://github.com/22AIML023Hiren/mlassignment2
 
 ---
 
