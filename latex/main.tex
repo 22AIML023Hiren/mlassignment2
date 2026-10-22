@@ -25,11 +25,10 @@
 \title{Empirical Study of Decision Forests: Bagging, Multi-Class SAMME Boosting, and Bias-Variance Tradeoffs on Face Identification}
 
 \author{
-Jay\\
+Hiren\\
 Department of Computer Science and Engineering\\
-Roll Number: \textbf{M26CSE005} \\
-Repository: \url{https://github.com/JayLakkadCSE005/ml-assignment2} \\
-Final Commit Hash: \texttt{a0006f72efd33d07bd614fdedcc0efd414b17f05}
+Roll Number: \textbf{M26CSA012} \\
+Repository: \url{https://github.com/22AIML023Hiren/mlassignment2}
 }
 
 \maketitle
@@ -62,7 +61,7 @@ All code, configurations, logs, and reproduction scripts are structured within o
 The AT\&T Cambridge Olivetti Faces dataset~\cite{samaria1994parameterisation} contains 400 grayscale images of 40 distinct subjects ($K=40$), with 10 images per subject captured under varying lighting, facial expressions, and facial details (glasses/no glasses). Each image is $64 \times 64$ pixels, yielding a feature vector $x \in \mathbb{R}^{4096}$ with pixel intensities normalized in $[0, 1]$.
 
 \subsection{Stratified Split Protocol}
-To strictly eliminate data leakage across evaluation stages, we utilize a deterministic pseudo-random number generator initialized with seed $S = 26005$ derived from roll number \texttt{M26CSE005}. For each of the 40 subjects, the 10 images are independently permuted and partitioned as follows:
+To strictly eliminate data leakage across evaluation stages, we utilize a deterministic pseudo-random number generator initialized with seed $S = 26012$ derived from roll number \texttt{M26CSA012}. For each of the 40 subjects, the 10 images are independently permuted and partitioned as follows:
 \begin{itemize}
     \item \textbf{Training Set ($x_{\text{train}}$)}: 6 images per subject ($N_{\text{train}} = 240$ samples).
     \item \textbf{Validation Set ($x_{\text{val}}$)}: 2 images per subject ($N_{\text{val}} = 80$ samples).
@@ -91,7 +90,7 @@ We evaluate single decision trees across maximum depths $d \in \{2, 4, 8, 16, \t
 \begin{table}[t]
 \centering
 \small
-\caption{Q1(a): Decision Tree grid search across maximum depth $d$ and minimum leaf samples $m$ (Seed 26005).}
+\caption{Q1(a): Decision Tree grid search across maximum depth $d$ and minimum leaf samples $m$ (Seed 26012).}
 \label{tab:q1a}
 \begin{tabular}{ccccccc}
 \toprule
